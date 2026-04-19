@@ -1,3 +1,9 @@
+# Purpose: Print module.
+# Lab: #3 - Standard Data Types, Collections, Functions, Modules.
+# Version: 1.0.0.
+# Developer: Popova Yana Georgievna.
+# Date: 18.03.2026.
+
 def display_list_data(data, message="Current list"):
     """
     Displays the elements of the list on the screen.
