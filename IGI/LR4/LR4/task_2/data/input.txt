@@ -1,0 +1,13 @@
+Hello there! How are you doing today? I hope everything is fine.
+Please call me at the new support number 291234567 if you need any help!
+My brother has another number, it is 299876543, but he is busy. Do not call 12912345678 because it is too long.
+
+Let's test some smileys right now. Here is a valid happy face :-) and another weird one ;--[[[[ for fun.
+Look at this one :))) it is also valid.
+But these are strictly invalid: ;-- and : and ] and :-(xyz) because they break the regex rules.
+
+Привет! Как твои дела? Надеюсь, все отлично. Программа работает просто замечательно.
+Брат купил большого слона.
+
+We also need to test comma separated phrases.
+Here they are: writing python code, analyzing complex data, building software, debugging errors.

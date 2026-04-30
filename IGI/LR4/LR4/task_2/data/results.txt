@@ -1,0 +1,100 @@
+=== TEXT ANALYSIS RESULTS ===
+
+Total Sentences: 17
+Declarative Sentences: 12
+Interrogative Sentences: 2
+Exclamatory Sentences: 3
+Average Word Length (chars): 4.41
+Average Sentence Length (chars): 31.65
+Total Smileys Found: 3
+Smileys List:
+  - :-)
+  - ;--[[[[
+  - :)))
+Phones (29xxxxxxx):
+  - 291234567
+  - 299876543
+Words (2nd Consonant, 3rd Vowel):
+  - there
+  - are
+  - everything
+  - Please
+  - the
+  - any
+  - brother
+  - another
+  - smileys
+  - another
+  - one
+  - this
+  - one
+  - these
+  - are
+  - they
+  - break
+  - the
+  - Привет
+  - твои
+  - все
+  - Программа
+  - просто
+  - Брат
+  - слона
+  - they
+  - are
+  - writing
+  - analyzing
+Words strictly bounded by spaces count: 115
+Letter Frequencies:
+  H: 23
+  e: 61
+  l: 22
+  o: 32
+  t: 36
+  r: 28
+  w: 7
+  a: 37
+  y: 15
+  u: 14
+  d: 18
+  i: 29
+  n: 28
+  g: 11
+  p: 11
+  v: 4
+  s: 29
+  f: 6
+  c: 9
+  m: 9
+  b: 11
+  k: 2
+  x: 3
+  z: 2
+  П: 4
+  р: 6
+  и: 4
+  в: 3
+  е: 7
+  т: 8
+  К: 3
+  а: 11
+  о: 12
+  д: 2
+  л: 6
+  Н: 4
+  ю: 1
+  с: 4
+  ь: 3
+  ч: 2
+  г: 2
+  м: 3
+  б: 3
+  з: 1
+  у: 1
+  ш: 1
+Sorted Comma Phrases:
+  - analyzing complex data
+  - building software
+  - it is 299876543
+
+=============================
