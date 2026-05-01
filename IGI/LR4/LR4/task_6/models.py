@@ -88,7 +88,7 @@ class WeatherDatasetAnalyzer(BaseDataAnalyzer):
         if self._df is None:
             self.load_data()
 
-        required_columns = ['Temperature_c', 'Humidity']
+        required_columns = ['Temperature (C)', 'Humidity']
         for col in required_columns:
             if col not in self._df.columns:
                 raise MissingColumnError(f"Column '{col}' is missing from the dataset.")
@@ -109,22 +109,22 @@ class WeatherDatasetAnalyzer(BaseDataAnalyzer):
         if self._df is None:
             self.load_data()
 
-        if 'Temperature_c' not in self._df.columns:
+        if 'Temperature (C)' not in self._df.columns:
             raise MissingColumnError("Column 'Temperature_c' is missing.")
 
-        q90 = self._df['Temperature_c'].quantile(0.90)
-        q10 = self._df['Temperature_c'].quantile(0.10)
+        q90 = self._df['Temperature (C)'].quantile(0.90)
+        q10 = self._df['Temperature (C)'].quantile(0.10)
 
-        hottest_days = self._df[self._df['Temperature_c'] >= q90]
-        coldest_days = self._df[self._df['Temperature_c'] <= q10]
+        hottest_days = self._df[self._df['Temperature (C)'] >= q90]
+        coldest_days = self._df[self._df['Temperature (C)'] <= q10]
 
-        avg_hot = hottest_days['Temperature_c'].mean()
-        avg_cold = coldest_days['Temperature_c'].mean()
+        avg_hot = hottest_days['Temperature (C)'].mean()
+        avg_cold = coldest_days['Temperature (C)'].mean()
 
         if avg_cold == 0:
             return 0.0
 
-        ratio = avg_hot / avg_cold
+        ratio = abs(avg_hot) / abs(avg_cold)
         return round(ratio, 2)
 
     def __str__(self) -> str:

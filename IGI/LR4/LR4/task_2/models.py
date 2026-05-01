@@ -8,7 +8,6 @@ import re
 import zipfile
 import os
 from abc import ABC, abstractmethod
-from collections import Counter
 
 
 class ZipArchiverMixin:
